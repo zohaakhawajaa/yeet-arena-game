@@ -1,0 +1,34 @@
+# --- Godot engine ---------------------------------------------------------
+.godot/
+*.translation
+export_presets.cfg
+build/
+exports/
+
+# Godot binary (never ship the engine; download it instead - see README.md)
+tools/godot/
+*.exe
+*.pck
+
+# --- Python backend -------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local SQLite databases (created at runtime)
+*.db
+*.db-wal
+*.db-shm
+
+# --- Packaging / logs -----------------------------------------------------
+yeet-arena-portfolio.zip
+*.log
+uvicorn*.log
+
+# --- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
