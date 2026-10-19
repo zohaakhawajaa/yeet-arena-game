@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ArenaDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/arenas/arena_def.gd" id="1_arena"]
+
+[resource]
+script = ExtResource("1_arena")
+id = "void_circuit"
+display_name = "VOID CIRCUIT"
+subtitle = "UNSTABLE GRID"
+description = "A platform suspended in dead data. Drifting glitch orbs punish anyone who stands still for too long."
+hazard = "orbs"
+bg_top = Color(0.0117647, 0.0117647, 0.0470588, 1)
+bg_bottom = Color(0.0431373, 0.0196078, 0.141176, 1)
+floor_color = Color(0.0313725, 0.0313725, 0.0980392, 1)
+grid_color = Color(0.305882, 0.843137, 1, 1)
+accent = Color(0.419608, 1, 0.784314, 1)
+glow_color = Color(0.541176, 0.360784, 1, 1)
+silhouette_color = Color(0.0470588, 0.0392157, 0.137255, 1)

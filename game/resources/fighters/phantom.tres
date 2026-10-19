@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="FighterStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/combat/fighter_stats.gd" id="1_stats"]
+
+[resource]
+script = ExtResource("1_stats")
+id = "phantom"
+display_name = "PHANTOM"
+tagline = "Already somewhere else."
+bio = "A stage magician turned underground duelist. PHANTOM wins by making the opponent hit empty air."
+ability_name = "PHASE STEP"
+ability_desc = "Dash grants a long invulnerability window - the best defensive escape in the roster."
+stance = "EVASIVE"
+pros = PackedStringArray("Long i-frames", "Great mobility", "Slippery target")
+cons = PackedStringArray("Fragile", "Below-average damage")
+primary = Color(0.541176, 0.360784, 1, 1)
+secondary = Color(0.278431, 0.164706, 0.560784, 1)
+accent = Color(0.85098, 0.784314, 1, 1)
+max_hp = 85
+move_speed = 350.0
+accel = 2900.0
+air_control = 0.8
+jump_velocity = -790.0
+gravity_scale = 0.95
+light_damage = 6
+light_startup = 0.08
+light_active = 0.06
+light_recovery = 0.15
+light_range = 66.0
+light_knockback = 300.0
+light_launch = 90.0
+heavy_damage = 10
+heavy_startup = 0.19
+heavy_active = 0.08
+heavy_recovery = 0.29
+heavy_range = 76.0
+heavy_knockback = 500.0
+heavy_launch = 320.0
+yeet_damage = 24
+yeet_cooldown = 7.5
+yeet_windup = 0.36
+yeet_active = 0.13
+yeet_recovery = 0.44
+yeet_range = 102.0
+yeet_knockback = 950.0
+yeet_launch = 460.0
+dash_speed = 860.0
+dash_time = 0.18
+dash_cooldown = 1.1
+dash_invuln = 0.3
+damage_taken_mult = 1.05
+knockback_taken_mult = 1.0
+super_armor = false
+crit_chance = 0.0
+parry = false
+guard_reduction = 0.7
+body_type = 2

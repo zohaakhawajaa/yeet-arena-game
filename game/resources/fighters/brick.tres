@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="FighterStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/combat/fighter_stats.gd" id="1_stats"]
+
+[resource]
+script = ExtResource("1_stats")
+id = "brick"
+display_name = "BRICK"
+tagline = "Wall with a temper."
+bio = "A retired demolition foreman who treats the arena like a job site. Every hit lands like falling concrete."
+ability_name = "IRON SKIN"
+ability_desc = "Super armor: light and heavy attacks are never interrupted, and BRICK shrugs off chip damage."
+stance = "HEAVY HITTER"
+pros = PackedStringArray("Huge damage", "Super armor", "High health", "Strong knockback")
+cons = PackedStringArray("Very slow", "Long recovery frames")
+primary = Color(1, 0.603922, 0.235294, 1)
+secondary = Color(0.478431, 0.247059, 0.078431, 1)
+accent = Color(1, 0.878431, 0.541176, 1)
+max_hp = 130
+move_speed = 225.0
+accel = 1600.0
+air_control = 0.5
+jump_velocity = -690.0
+gravity_scale = 1.15
+light_damage = 9
+light_startup = 0.13
+light_active = 0.08
+light_recovery = 0.24
+light_range = 74.0
+light_knockback = 430.0
+light_launch = 120.0
+heavy_damage = 16
+heavy_startup = 0.28
+heavy_active = 0.1
+heavy_recovery = 0.4
+heavy_range = 88.0
+heavy_knockback = 700.0
+heavy_launch = 330.0
+yeet_damage = 34
+yeet_cooldown = 9.0
+yeet_windup = 0.5
+yeet_active = 0.15
+yeet_recovery = 0.55
+yeet_range = 110.0
+yeet_knockback = 1100.0
+yeet_launch = 400.0
+dash_speed = 640.0
+dash_time = 0.14
+dash_cooldown = 1.8
+dash_invuln = 0.05
+damage_taken_mult = 0.9
+knockback_taken_mult = 0.7
+super_armor = true
+crit_chance = 0.0
+parry = false
+guard_reduction = 0.8
+body_type = 1

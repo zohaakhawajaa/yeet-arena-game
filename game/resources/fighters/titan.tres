@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="FighterStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/combat/fighter_stats.gd" id="1_stats"]
+
+[resource]
+script = ExtResource("1_stats")
+id = "titan"
+display_name = "TITAN"
+tagline = "The arena moves around him."
+bio = "A siege-engine pilot down on his luck. TITAN absorbs punishment that would end anyone else's night."
+ability_name = "BULWARK"
+ability_desc = "150 HP, reduced damage taken and barely moves when hit - plus the strongest guard in the game."
+stance = "JUGGERNAUT"
+pros = PackedStringArray("Highest health", "Hard to knock back", "Best guard")
+cons = PackedStringArray("Slow", "Long dash cooldown")
+primary = Color(0.623529, 0.705882, 0.847059, 1)
+secondary = Color(0.27451, 0.337255, 0.435294, 1)
+accent = Color(0.811765, 0.886275, 1, 1)
+max_hp = 150
+move_speed = 250.0
+accel = 1800.0
+air_control = 0.55
+jump_velocity = -700.0
+gravity_scale = 1.1
+light_damage = 8
+light_startup = 0.12
+light_active = 0.08
+light_recovery = 0.22
+light_range = 72.0
+light_knockback = 400.0
+light_launch = 110.0
+heavy_damage = 14
+heavy_startup = 0.26
+heavy_active = 0.1
+heavy_recovery = 0.36
+heavy_range = 86.0
+heavy_knockback = 640.0
+heavy_launch = 300.0
+yeet_damage = 30
+yeet_cooldown = 9.5
+yeet_windup = 0.5
+yeet_active = 0.15
+yeet_recovery = 0.55
+yeet_range = 108.0
+yeet_knockback = 1000.0
+yeet_launch = 420.0
+dash_speed = 660.0
+dash_time = 0.14
+dash_cooldown = 1.7
+dash_invuln = 0.06
+damage_taken_mult = 0.85
+knockback_taken_mult = 0.55
+super_armor = false
+crit_chance = 0.0
+parry = false
+guard_reduction = 0.92
+body_type = 4

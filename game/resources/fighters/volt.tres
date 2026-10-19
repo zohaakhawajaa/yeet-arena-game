@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="FighterStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/combat/fighter_stats.gd" id="1_stats"]
+
+[resource]
+script = ExtResource("1_stats")
+id = "volt"
+display_name = "VOLT"
+tagline = "Runs on pure overdrive."
+bio = "An overclocked pit runner who never learned the meaning of braking. VOLT opens combos before opponents finish blinking."
+ability_name = "OVERCLOCK"
+ability_desc = "Fastest ground speed in the game and the quickest dash recharge - VOLT lives inside the opponent's face."
+stance = "RUSHDOWN"
+pros = PackedStringArray("Elite speed", "Fast dash", "Quick attacks", "Best pressure")
+cons = PackedStringArray("Low health", "Light damage")
+primary = Color(0.180392, 0.913725, 0.968627, 1)
+secondary = Color(0.117647, 0.498039, 0.560784, 1)
+accent = Color(0.85098, 0.984314, 1, 1)
+max_hp = 90
+move_speed = 380.0
+accel = 3200.0
+air_control = 0.75
+jump_velocity = -810.0
+gravity_scale = 1.0
+light_damage = 6
+light_startup = 0.06
+light_active = 0.06
+light_recovery = 0.13
+light_range = 70.0
+light_knockback = 330.0
+light_launch = 80.0
+heavy_damage = 10
+heavy_startup = 0.17
+heavy_active = 0.08
+heavy_recovery = 0.27
+heavy_range = 82.0
+heavy_knockback = 540.0
+heavy_launch = 300.0
+yeet_damage = 26
+yeet_cooldown = 7.0
+yeet_windup = 0.36
+yeet_active = 0.13
+yeet_recovery = 0.44
+yeet_range = 104.0
+yeet_knockback = 1050.0
+yeet_launch = 470.0
+dash_speed = 900.0
+dash_time = 0.15
+dash_cooldown = 0.9
+dash_invuln = 0.12
+damage_taken_mult = 1.0
+knockback_taken_mult = 1.05
+super_armor = false
+crit_chance = 0.0
+parry = false
+guard_reduction = 0.7
+body_type = 0

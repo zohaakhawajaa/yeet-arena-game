@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="FighterStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/combat/fighter_stats.gd" id="1_stats"]
+
+[resource]
+script = ExtResource("1_stats")
+id = "glitch"
+display_name = "GLITCH"
+tagline = "Exists at 240 ticks."
+bio = "A combat drone that escaped its debug build. GLITCH rewards precise timing with frame-perfect punishes."
+ability_name = "PARRY PROTOCOL"
+ability_desc = "A guard started in the first 0.16s negates all damage, staggers the attacker and instantly recharges YEET."
+stance = "TECHNICAL"
+pros = PackedStringArray("Parry rewards", "YEET refunds", "Balanced stats")
+cons = PackedStringArray("Demands timing", "Parry window is tiny")
+primary = Color(0.419608, 1, 0.784314, 1)
+secondary = Color(0.121569, 0.478431, 0.360784, 1)
+accent = Color(0.839216, 1, 0.941176, 1)
+max_hp = 95
+move_speed = 335.0
+accel = 2850.0
+air_control = 0.7
+jump_velocity = -775.0
+gravity_scale = 1.0
+light_damage = 7
+light_startup = 0.08
+light_active = 0.06
+light_recovery = 0.15
+light_range = 68.0
+light_knockback = 340.0
+light_launch = 95.0
+heavy_damage = 11
+heavy_startup = 0.19
+heavy_active = 0.09
+heavy_recovery = 0.28
+heavy_range = 78.0
+heavy_knockback = 520.0
+heavy_launch = 300.0
+yeet_damage = 26
+yeet_cooldown = 8.0
+yeet_windup = 0.4
+yeet_active = 0.13
+yeet_recovery = 0.45
+yeet_range = 104.0
+yeet_knockback = 950.0
+yeet_launch = 430.0
+dash_speed = 800.0
+dash_time = 0.16
+dash_cooldown = 1.2
+dash_invuln = 0.12
+damage_taken_mult = 1.0
+knockback_taken_mult = 1.0
+super_armor = false
+crit_chance = 0.0
+parry = true
+parry_window = 0.16
+guard_reduction = 0.8
+body_type = 5

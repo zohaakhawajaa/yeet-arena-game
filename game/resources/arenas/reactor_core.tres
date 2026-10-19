@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ArenaDef" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/arenas/arena_def.gd" id="1_arena"]
+
+[resource]
+script = ExtResource("1_arena")
+id = "reactor_core"
+display_name = "REACTOR CORE"
+subtitle = "INDUSTRIAL HEAT"
+description = "A decommissioned fusion ring. Floor vents erupt on a telegraphed cycle - respect the warning stripes."
+hazard = "vent"
+bg_top = Color(0.0588235, 0.0392157, 0.0235294, 1)
+bg_bottom = Color(0.164706, 0.0705882, 0.0235294, 1)
+floor_color = Color(0.0862745, 0.0627451, 0.0470588, 1)
+grid_color = Color(1, 0.635294, 0.235294, 1)
+accent = Color(1, 0.360784, 0.223529, 1)
+glow_color = Color(1, 0.792157, 0.294118, 1)
+silhouette_color = Color(0.137255, 0.0862745, 0.054902, 1)

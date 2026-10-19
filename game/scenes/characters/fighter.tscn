@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://game/scripts/combat/fighter.gd" id="1_fighter"]
+[ext_resource type="Script" path="res://game/scripts/effects/fighter_art.gd" id="2_art"]
+
+[sub_resource type="CapsuleShape2D" id="body_cap"]
+radius = 20.0
+height = 88.0
+
+[sub_resource type="RectangleShape2D" id="hurt_rect"]
+size = Vector2(46, 84)
+
+[node name="Fighter" type="CharacterBody2D"]
+collision_layer = 1
+collision_mask = 1
+script = ExtResource("1_fighter")
+
+[node name="BodyShape" type="CollisionShape2D" parent="."]
+position = Vector2(0, -44)
+shape = SubResource("body_cap")
+
+[node name="Hurtbox" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 0
+monitoring = false
+monitorable = true
+
+[node name="Shape" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2(0, -44)
+shape = SubResource("hurt_rect")
+
+[node name="Hitbox" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
+monitoring = true
+monitorable = false
+
+[node name="Shape" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(50, -56)
+shape = SubResource("hurt_rect")
+
+[node name="Art" type="Node2D" parent="."]
+script = ExtResource("2_art")
